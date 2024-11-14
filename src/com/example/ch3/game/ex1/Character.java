@@ -1,4 +1,4 @@
-package com.example.ch3;
+package com.example.ch3.game.ex1;
 
 public class Character {
     public String name;
