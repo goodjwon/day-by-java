@@ -1,5 +1,6 @@
 package com.example.ch4.homework;
 
+//레벨업 가능: 1, 3,
 
 public class LevelUp {
     private int[] id;
