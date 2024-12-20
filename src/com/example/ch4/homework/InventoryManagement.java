@@ -1,5 +1,6 @@
 package com.example.ch4.homework;
 
+//부족한 재고: 101, 103,
 
 public class InventoryManagement {
     private int[] id;
