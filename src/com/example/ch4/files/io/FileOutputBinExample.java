@@ -1,4 +1,4 @@
-package com.example.ch4.files;
+package com.example.ch4.files.io;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
