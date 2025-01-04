@@ -1,4 +1,4 @@
-package com.example.ch4.hw.txt;
+package com.example.ch4.hw;
 
 
 import java.io.*;
