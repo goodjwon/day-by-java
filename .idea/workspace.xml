@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b02becc6-bbca-42d6-9af4-cf84e69fb0f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/day-by-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex1/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex1/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex2/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex2/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex3/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex3/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex4/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex4/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex5/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex5/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex6/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex6/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex7/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex7/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex8/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex8/Spell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch2/game/ex9/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch2/game/ex9/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/alog/BinarySearchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/alog/BinarySearchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/alog/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/alog/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/alog/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/alog/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/alog/HashMapSearchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/alog/HashMapSearchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/alog/LinearSearchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/alog/LinearSearchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/alog/TreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/alog/TreeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/alog/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/alog/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day1/Day1Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day1/Day1Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day1/Day1Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day1/Day1Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day1/Day1Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day1/Day1Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day1/Day1Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day1/Day1Example4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day1/Day1Example5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day1/Day1Example5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day2/Day2Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day2/Day2Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day2/Day2Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day2/Day2Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day2/Day2Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day2/Day2Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day2/Day2Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day2/Day2Example4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day2/Day2Example5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day2/Day2Example5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day3/Day3Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day3/Day3Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day3/Day3Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day3/Day3Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day3/Day3Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day3/Day3Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day3/Day3Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day3/Day3Example4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day3/Day3Example5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day3/Day3Example5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day4/Day4Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day4/Day4Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day4/Day4Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day4/Day4Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day4/Day4Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day4/Day4Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day4/Day4Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day4/Day4Example4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day4/Day4Example5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day4/Day4Example5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/day5/Day5Example9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/day5/Day5Example9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/ArrayListInsertionDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/ArrayListInsertionDeletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/ArrayListIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/ArrayListIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/ArrayListPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/ArrayListPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/ArrayListWithCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/ArrayListWithCapacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/HashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/LinkedHashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/LinkedHashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/LinkedListAddRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/LinkedListAddRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/LinkedListIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/LinkedListIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/ListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/QueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/QueueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/SetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/def/TreeMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/def/TreeMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/FibonacciDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/FibonacciDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/FibonacciRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/FibonacciRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/GraphBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/GraphBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/GraphDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/GraphDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/HashSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/HashSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/alog/DiscountCodeValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DiscountCodeValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/alog/DropRateCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DropRateCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/alog/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/InventoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/alog/LeaderboardUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/LeaderboardUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/alog/LevelUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/LevelUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/homework/alog/ShoppingCartCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/ShoppingCartCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex1/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex1/ProductCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex1/ProductCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex10/FindFolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex10/FindFolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex2/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex2/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex3/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex3/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex4/BrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex4/BrowserHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex5/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex5/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex6/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex6/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex7/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex7/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex8/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex8/Undo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/list/ex9/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/list/ex9/Setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/que/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/que/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/que/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/que/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/que/ProducerConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/que/ProducerConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/que/QueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/que/QueueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/stc/StackExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/stc/StackExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/stc/StackIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/stc/StackIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/stc/StackPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/stc/StackPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/toy/MemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/toy/MemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/vec/VectorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/vec/VectorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/vec/VectorIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/vec/VectorIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/vec/VectorPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/vec/VectorPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch3/vec/VectorSynchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/vec/VectorSynchronization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/exception/BasicTryCatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/exception/BasicTryCatchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/exception/CustomFileExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/exception/CustomFileExceptionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/exception/CustomNetworkExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/exception/CustomNetworkExceptionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/exception/ExceptionMessageExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/exception/ExceptionMessageExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/exception/MultiCatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/exception/MultiCatchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/exception/TryCatchFinallyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/exception/TryCatchFinallyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/LargeFileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/LargeFileGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/PerformanceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/PerformanceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/DirectoryCreateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/DirectoryCreateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/FileContentSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/FileContentSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/FileDeleteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/FileDeleteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/FileNameSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/FileNameSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/FileOutputBinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/FileOutputBinExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/FileReadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/FileReadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/FileReaderTxtExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/FileReaderTxtExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/FileReaderWithOutBufferedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/FileReaderWithOutBufferedReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/FileWriterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/FileWriterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/LargeFileReaderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/LargeFileReaderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/io/RecursiveDeleteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/io/RecursiveDeleteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/nio/FileOutputBinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/nio/FileOutputBinExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/nio/FileReaderTxtExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/nio/FileReaderTxtExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/files/nio/NioFileAppendExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/nio/NioFileAppendExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/BinaryFileRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/BinaryFileWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/LowScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/LowScale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/MergeTextFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/MergeTextFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/MergeTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/MergeTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/MoveLogFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/MoveLogFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/Paragraphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Paragraphs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/PathReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/PathReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/TxtFileRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/TxtFileRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/ch4/hw/TxtFileWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/TxtFileWrite.java" afterDir="false" />
+    </list>
+    <list id="aab38576-65a7-48e2-86bd-041b1ee57b42" name="Changes by jungwonpark" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "skfkfkvlrm"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/goodjwon/day-by-java.git",
+    "accountId": "18bfa189-594d-4a8b-bc20-3ad4040442e5"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2r8r3ZtN0MgPWrRUHZlc9xTN7VU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Copy.executor": "Run",
+    "Application.Data.executor": "Run",
+    "Application.Inventory.executor": "Run",
+    "Application.LowScale.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Paragraphs.executor": "Run",
+    "Application.ProductCatalog.executor": "Run",
+    "Application.TxtFileWrite.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "homework",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ch4.hw.Copy" />
+      <module name="day-by-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch4.hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Data" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ch3.list.ex6.Data" />
+      <module name="day-by-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch3.list.ex6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ch2.game.ex1.Main" />
+      <module name="day-by-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch2.game.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Paragraphs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ch4.hw.Paragraphs" />
+      <module name="day-by-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch4.hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCatalog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ch3.list.ex1.ProductCatalog" />
+      <module name="day-by-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch3.list.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxtFileWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ch4.hw.TxtFileWrite" />
+      <module name="day-by-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch4.hw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TxtFileWrite" />
+        <item itemvalue="Application.Paragraphs" />
+        <item itemvalue="Application.Copy" />
+        <item itemvalue="Application.Data" />
+        <item itemvalue="Application.ProductCatalog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b02becc6-bbca-42d6-9af4-cf84e69fb0f5" name="Changes" comment="" />
+      <created>1735951345500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735951345500</updated>
+      <workItem from="1735951347721" duration="1463000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

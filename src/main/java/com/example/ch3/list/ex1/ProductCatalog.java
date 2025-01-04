@@ -31,7 +31,7 @@ public class ProductCatalog {
     }
 
     class Object {
-        public static void main(String[] args) {
+        public  void main(String[] args) {
             ArrayList<String> list = new ArrayList<String>();
             list.add("노트북 - 1500000원");
             list.add("스마트폰 - 800000원");
