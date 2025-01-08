@@ -1,4 +1,4 @@
-package com.example.ch3.homework.alog;
+package main.java.com.example.ch3.homework.alog;
 
 import java.util.HashSet;
 

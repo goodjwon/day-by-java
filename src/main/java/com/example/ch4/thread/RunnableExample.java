@@ -1,4 +1,4 @@
-package com.example.ch4.thread;
+package main.java.com.example.ch4.thread;
 
 class MyRunnable implements Runnable {
     public void run() {

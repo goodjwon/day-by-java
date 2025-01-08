@@ -1,4 +1,4 @@
-package com.example.ch4.hw;
+package main.java.com.example.ch4.hw;
 
 /**
  * Article
