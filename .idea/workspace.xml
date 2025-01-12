@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b02becc6-bbca-42d6-9af4-cf84e69fb0f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/PurchaseFrequencyAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/RecommendationSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/SkillCooldownChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DiscountCodeValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DiscountCodeValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DropRateCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DropRateCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/thread/RunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/thread/RunnableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-by-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day-by-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="aab38576-65a7-48e2-86bd-041b1ee57b42" name="Changes by jungwonpark" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,56 +32,66 @@
     &quot;assignee&quot;: &quot;skfkfkvlrm&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/goodjwon/day-by-java.git&quot;,
-    &quot;accountId&quot;: &quot;18bfa189-594d-4a8b-bc20-3ad4040442e5&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:goodjwon/day-by-java.git",
+    "accountId": "855f192a-ec60-4541-ae5e-8ff017dbcae6"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2r8r3ZtN0MgPWrRUHZlc9xTN7VU" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Article.executor": "Run",
-    "Application.Copy.executor": "Run",
-    "Application.Data.executor": "Run",
-    "Application.Inventory.executor": "Run",
-    "Application.LeaderboardUpdater.executor": "Run",
-    "Application.LowScale.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Paragraphs.executor": "Run",
-    "Application.ProductCatalog.executor": "Run",
-    "Application.PurchaseFrequencyAnalyzer.executor": "Run",
-    "Application.RecommendationSorter.executor": "Run",
-    "Application.RunnableExample.executor": "Run",
-    "Application.SkillCooldownChecker.executor": "Run",
-    "Application.TxtFileWrite.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Article.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Copy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Data.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inventory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeaderboardUpdater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LowScale.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Paragraphs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductCatalog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PurchaseFrequencyAnalyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecommendationSorter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SkillCooldownChecker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TxtFileWrite.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Article">
     <configuration name="Article" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -199,6 +205,7 @@
       <workItem from="1735960097983" duration="78000" />
       <workItem from="1736341067067" duration="1658000" />
       <workItem from="1736343571513" duration="1224000" />
+      <workItem from="1736642288313" duration="161000" />
     </task>
     <servers />
   </component>
