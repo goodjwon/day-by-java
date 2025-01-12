@@ -1,4 +1,4 @@
-package main.java.com.example.ch3.homework.alog;
+package com.example.ch3.homework.alog;
 
 import java.util.HashMap;
 import java.util.Map;

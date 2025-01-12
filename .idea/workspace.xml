@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b02becc6-bbca-42d6-9af4-cf84e69fb0f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-by-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day-by-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/thread/RunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/thread/RunnableExample.java" afterDir="false" />
     </list>
     <list id="aab38576-65a7-48e2-86bd-041b1ee57b42" name="Changes by jungwonpark" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +88,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Article">
+  <component name="RunManager" selected="Application.RunnableExample">
     <configuration name="Article" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -176,9 +173,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunnableExample" />
         <item itemvalue="Application.TxtFileWrite" />
         <item itemvalue="Application.Article" />
-        <item itemvalue="Application.RunnableExample" />
         <item itemvalue="Application.RunnableExample" />
         <item itemvalue="Application.Paragraphs" />
       </list>
@@ -205,7 +202,7 @@
       <workItem from="1735960097983" duration="78000" />
       <workItem from="1736341067067" duration="1658000" />
       <workItem from="1736343571513" duration="1224000" />
-      <workItem from="1736642288313" duration="161000" />
+      <workItem from="1736642288313" duration="221000" />
     </task>
     <servers />
   </component>
