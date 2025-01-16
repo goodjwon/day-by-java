@@ -13,6 +13,11 @@
     <resources>
       <resource>
         <directory>src/main/resources</directory>
+        <includes>
+          <include>**/*.json</include>
+          <include>**/*.csv</include>
+          <include>**/*.xlsx</include>
+        </includes>
       </resource>
     </resources>
     <plugins>
