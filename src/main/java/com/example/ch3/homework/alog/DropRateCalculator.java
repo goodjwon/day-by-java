@@ -1,4 +1,4 @@
-package main.java.com.example.ch3.homework.alog;
+package com.example.ch3.homework.alog;
 
 public class DropRateCalculator {
     public static void main(String[] args) {
