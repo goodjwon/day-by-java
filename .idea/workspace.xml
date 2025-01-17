@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55db5d17-22b9-4f7d-8a5d-3853c22ba1b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/day-by-java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-by-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day-by-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DiscountCodeValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DiscountCodeValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DropRateCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/DropRateCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/PurchaseFrequencyAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/PurchaseFrequencyAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/RecommendationSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/RecommendationSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/SkillCooldownChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch3/homework/alog/SkillCooldownChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/article.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_output.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/thread/RunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/thread/RunnableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/LowScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/LowScale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +21,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "skfkfkvlrm"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;skfkfkvlrm&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/goodjwon/day-by-java.git",
-    "accountId": "18bfa189-594d-4a8b-bc20-3ad4040442e5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/goodjwon/day-by-java.git&quot;,
+    &quot;accountId&quot;: &quot;18bfa189-594d-4a8b-bc20-3ad4040442e5&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ri4tvRYNcYev6VqXrtEDf2WsMh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,12 +43,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Article.executor": "Run",
+    "Application.BinaryFileRead.executor": "Run",
+    "Application.Copy.executor": "Run",
     "Application.CsvProcessor.executor": "Run",
+    "Application.LowScale.executor": "Run",
+    "Application.MoveLogFile.executor": "Run",
+    "Application.Paragraphs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/samuel/java/workspase/day-by-java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -63,11 +66,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\samuel\java\workspase\day-by-java" />
+      <recent name="D:\samuel\java\workspase\day-by-java\src\main\resourcese" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
       </set>
     </attachedChunks>
   </component>
@@ -79,11 +88,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737028781020</updated>
-      <workItem from="1737028782317" duration="259000" />
+      <workItem from="1737028782317" duration="786000" />
+      <workItem from="1737095723370" duration="944000" />
+      <workItem from="1737096683143" duration="2040000" />
+      <workItem from="1737098788207" duration="982000" />
+      <workItem from="1737100038761" duration="327000" />
+      <workItem from="1737100524495" duration="426000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

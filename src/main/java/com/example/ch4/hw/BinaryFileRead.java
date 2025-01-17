@@ -6,17 +6,18 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class BinaryFileRead {
+
     public static void main(String[] args) {
-        String filename = "image.bat";
+        String filePath = "binary_output.dat";
         byte[] data = {10, 20};
 
-        try (FileOutputStream fos = new FileOutputStream(filename)) {
+        try (FileOutputStream fos = new FileOutputStream(filePath)) {
             fos.write(data);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        try (FileInputStream fis = new FileInputStream(filename)) {
+        try (FileInputStream fis = new FileInputStream(filePath)) {
             float value;
             int size = "image.bat".length();
             while ((value = fis.read()) != -1) {
