@@ -7,50 +7,52 @@ package com.example.ch4.hw;
  * 내용 : "article.txt" 파일에서 "Java"라는 단어가 등장한 횟수를 계산하는 프로그램 작성.
  */
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class Article {
-    public static void main(String[] args) {
-        String filePath = "D:\\samuel\\java\\과외 내용\\day-by-java\\article.txt";
-        String keyword = "Java";
-
-        File file = new File(filePath);
-
-        if (!file.exists() || !file.isFile()) {
-            System.out.println("유효하지 않은 파일 경로입니다: " + filePath);
-            return;
-        }
-
-        int wordCount = countWord(file, keyword);
-
-        System.out.println("파일에 등장한 Java의 횟수: " + wordCount);
-    }
-
-    public static int countWord(File file, String keyword) {
-        int count = 0;
-
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+    public static int countWordOption(String filePath, String word) {
+        int wordCount = 0;
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
-
             while ((line = br.readLine()) != null) {
-                count += countInLine(line, keyword);
+                wordCount += countWord(line.toLowerCase(), word.toLowerCase()); //충돌을 피하기 위해 소문자로 변환
             }
         } catch (IOException e) {
-            System.err.println("파일 읽기 오류: " + file.getAbsolutePath() + " - " + e.getMessage());
+            System.err.println("Error reading file: " + e.getMessage());
         }
+        return wordCount;
+    }
 
+    //주어진 단어가 몇 번 등장하는지 계산
+    public static int countWord(String line, String word) {
+        int count = 0;
+        int index = 0;
+        while ((index = line.indexOf(word, index)) != -1) {
+            count++;
+            index += word.length();
+        }
         return count;
     }
 
-    public static int countInLine(String line, String keyword) {
-        int count = 0;
-        int index = 0;
-
-        while ((index = line.indexOf(keyword, index)) != -1) {
-            count++;
-            index += keyword.length();
+    //경로 탐색
+    public static String getResourceFilePath(String fileName) {
+        ClassLoader classLoader = Article.class.getClassLoader();
+        if (classLoader.getResource(fileName) != null) {
+            return classLoader.getResource(fileName).getPath();
         }
+        return null;
+    }
 
-        return count;
+    public static void main(String[] args) {
+        String filePath = getResourceFilePath("article.txt");
+        String word = "Java"; //대상
+
+        // "Java" 단어가 등장한 횟수 계산
+        int occurrences = countWordOption(filePath, word);
+
+        // 결과
+        System.out.println("Java가 " + occurrences + "번 등장했습니다.");
     }
 }

@@ -15,8 +15,8 @@ import java.nio.file.StandardCopyOption;
 
 public class Copy {
     public static void main(String[] args) {
-        Path source = Paths.get("D:\\samuel\\java\\과외 내용\\day-by-java\\source.txt");
-        Path target = Paths.get("D:\\samuel\\java\\과외 내용\\day-by-java\\destination.txt");
+        Path source = Paths.get("D:\\samuel\\java\\workspase\\day-by-java\\source.txt");
+        Path target = Paths.get("D:\\samuel\\java\\workspase\\day-by-java\\destination.txt");
 
         try {
             Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
@@ -24,4 +24,12 @@ public class Copy {
             e.printStackTrace();
         }
     }
+
+//    public static String getResourceFilePath(String fileName) {
+//        ClassLoader classLoader = Copy.class.getClassLoader();
+//        if (classLoader.getResource(fileName) != null) {
+//            return classLoader.getResource(fileName).getPath();
+//        }
+//        return null;
+//    }
 }
