@@ -1,0 +1,47 @@
+{
+  "maps": [
+    {
+      "name": "Forgotten Forest",
+      "dungeons": [
+        {
+          "name": "Haunted Grove",
+          "monsters": ["Goblin", "Skeleton", "Zombie"],
+          "boss": {
+            "name": "Necromancer",
+            "rewards": {
+              "experience": 300,
+              "gold": 100
+            }
+          }
+        },
+        {
+          "name": "Shadow Cavern",
+          "monsters": ["Bat", "Shadow Beast"],
+          "boss": {
+            "name": "Dark Lord",
+            "rewards": {
+              "experience": 500,
+              "gold": 200
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mystic Desert",
+      "dungeons": [
+        {
+          "name": "Sand Tomb",
+          "monsters": ["Scorpion", "Sand Wraith"],
+          "boss": {
+            "name": "Sand King",
+            "rewards": {
+              "experience": 700,
+              "gold": 300
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

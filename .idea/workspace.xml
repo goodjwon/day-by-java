@@ -5,20 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55db5d17-22b9-4f7d-8a5d-3853c22ba1b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/toy/game/offline/OfflineGameMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/map_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/article.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_output.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Copy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/LowScale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/LowScale.java" afterDir="false" />
+    </list>
+    <list id="2b792163-ff72-45fa-95d2-8b474e9a1873" name="Changes by jungwonpark" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="hw" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -37,6 +57,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2ri4tvRYNcYev6VqXrtEDf2WsMh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,10 +72,11 @@
     "Application.CsvProcessor.executor": "Run",
     "Application.LowScale.executor": "Run",
     "Application.MoveLogFile.executor": "Run",
+    "Application.OfflineGameMain.executor": "Run",
     "Application.Paragraphs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "hw",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/samuel/java/workspase/day-by-java",
     "node.js.detected.package.eslint": "true",
@@ -63,6 +87,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +119,8 @@
       <workItem from="1737098788207" duration="982000" />
       <workItem from="1737100038761" duration="327000" />
       <workItem from="1737100524495" duration="426000" />
+      <workItem from="1737115108716" duration="213000" />
+      <workItem from="1737158418415" duration="8084000" />
     </task>
     <servers />
   </component>
