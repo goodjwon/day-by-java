@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55db5d17-22b9-4f7d-8a5d-3853c22ba1b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/FileIOHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/FileIOHandlerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/LargeFileProcessing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="2b792163-ff72-45fa-95d2-8b474e9a1873" name="Changes by jungwonpark" comment="" />
@@ -62,34 +61,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Article.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryFileRead.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Copy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CsvProcessor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileIOHandlerMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LowScale.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveLogFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OfflineGameMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Paragraphs.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#32 on hw&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/samuel/java/workspase/day-by-java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Article.executor": "Run",
+    "Application.BinaryFileRead.executor": "Run",
+    "Application.Copy.executor": "Run",
+    "Application.CsvProcessor.executor": "Run",
+    "Application.FileIOHandlerMain.executor": "Run",
+    "Application.LargeFileProcessing.executor": "Run",
+    "Application.LowScale.executor": "Run",
+    "Application.MoveLogFile.executor": "Run",
+    "Application.OfflineGameMain.executor": "Run",
+    "Application.Paragraphs.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "hw",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/samuel/java/workspase/day-by-java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\samuel\java\workspase\day-by-java" />
@@ -99,8 +99,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
       </set>
     </attachedChunks>
   </component>
@@ -121,7 +121,8 @@
       <workItem from="1737115108716" duration="213000" />
       <workItem from="1737158418415" duration="8406000" />
       <workItem from="1737432365549" duration="12591000" />
-      <workItem from="1737445314760" duration="1233000" />
+      <workItem from="1737445314760" duration="1290000" />
+      <workItem from="1737725113797" duration="8998000" />
     </task>
     <servers />
   </component>
