@@ -7,19 +7,25 @@ package com.example.ch4.hw;
  * 내용 : "source.txt" 파일의 내용을 "destination.txt" 파일로 복사하는 프로그램 작성.
  */
 
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.ArrayList;
+import java.util.List;
+
+import static com.example.ch4.xls.ExcelProcessor.getResourceFilePath;
 
 public class Copy {
     public static void main(String[] args) {
-        Path source = Paths.get("D:\\samuel\\java\\workspase\\day-by-java\\source.txt");
-        Path target = Paths.get("D:\\samuel\\java\\workspase\\day-by-java\\destination.txt");
+        String source = getResourceFilePath("source.txt");
+        String target = getResourceFilePath("destination.txt");
 
-        try {
-            Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
+        try (BufferedReader br = new BufferedReader(new FileReader(source));
+             BufferedWriter bw = new BufferedWriter(new FileWriter(target))) {
+            bw.write(br.readLine());
+            System.out.println("완료되었습니다.");
         } catch (IOException e) {
             e.printStackTrace();
         }

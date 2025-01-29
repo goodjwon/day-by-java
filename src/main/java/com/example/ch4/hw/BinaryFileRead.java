@@ -5,10 +5,12 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import static com.example.ch4.xls.ExcelProcessor.getResourceFilePath;
+
 public class BinaryFileRead {
 
     public static void main(String[] args) {
-        String filePath = "binary_output.dat";
+        String filePath = getResourceFilePath("binary_output.dat");
         byte[] data = {10, 20};
 
         try (FileOutputStream fos = new FileOutputStream(filePath)) {

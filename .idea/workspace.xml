@@ -5,11 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55db5d17-22b9-4f7d-8a5d-3853c22ba1b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/LargeFileProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/csv/BigFileProcessingDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/csv/BigFileProcessingDomainHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/csv/LargeFileProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/csv/LargeFileProcessingDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/xls/ExcelProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/xls/hw/ChangeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/xls/hw/DataSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/xls/hw/FilteredData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/xls/hw/SumXlsxData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/data1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/data2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/employee_data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/grades.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/inventory.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/monthly_sales.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/multi_sheet.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/sales_data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/students_scores.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/survey_data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourcese/test_scores.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_output.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/binary_output.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-by-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/day-by-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/destination.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/employees.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filtered_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/image.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/largeFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/largeFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/largeFile1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/largeFile1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/largeFile2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/largeFile2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergedFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/mergedFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paragraphs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/paragraphs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/people.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/people.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourcese/source.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/nio/FileOutputBinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/nio/FileOutputBinExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/nio/FileReaderTxtExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/files/nio/FileReaderTxtExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/BinaryFileWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/FileIOHandlerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/FileIOHandlerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/MergeTextFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/MergeTextFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/MergeTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/MergeTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Paragraphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/Paragraphs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/TxtFileRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/TxtFileRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/TxtFileWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/TxtFileWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/toy/game/offline/OfflineGameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/toy/game/offline/OfflineGameMain.java" afterDir="false" />
     </list>
-    <list id="2b792163-ff72-45fa-95d2-8b474e9a1873" name="Changes by jungwonpark" comment="" />
+    <list id="2b792163-ff72-45fa-95d2-8b474e9a1873" name="Changes by jungwonpark" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/FileIOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ch4/hw/FileIOHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,15 +126,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Article.executor": "Run",
+    "Application.BigFileProcessingDomain.executor": "Run",
     "Application.BinaryFileRead.executor": "Run",
+    "Application.BinaryFileWrite.executor": "Run",
+    "Application.ChangeValue.executor": "Run",
     "Application.Copy.executor": "Run",
     "Application.CsvProcessor.executor": "Run",
+    "Application.DataSort.executor": "Run",
+    "Application.ExcelProcessor.executor": "Run",
     "Application.FileIOHandlerMain.executor": "Run",
+    "Application.FileOutputBinExample.executor": "Debug",
+    "Application.FileReaderTxtExample.executor": "Run",
+    "Application.FilteredData.executor": "Run",
     "Application.LargeFileProcessing.executor": "Run",
+    "Application.LargeFileProcessingDomain.executor": "Run",
     "Application.LowScale.executor": "Run",
+    "Application.MergeTextFiles.executor": "Run",
+    "Application.MergeTxt.executor": "Run",
     "Application.MoveLogFile.executor": "Run",
     "Application.OfflineGameMain.executor": "Run",
     "Application.Paragraphs.executor": "Run",
+    "Application.SumXlsxData.executor": "Run",
+    "Application.TxtFileRead.executor": "Run",
+    "Application.TxtFileWrite.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "hw",
@@ -84,17 +160,52 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\samuel\java\workspase\day-by-java" />
+      <recent name="D:\samuel\java\workspase\day-by-java\target\classes" />
       <recent name="D:\samuel\java\workspase\day-by-java\src\main\resourcese" />
+      <recent name="D:\samuel\java\workspase\day-by-java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BigFileProcessingDomain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ch4.csv.BigFileProcessingDomain" />
+      <module name="day-by-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch4.csv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargeFileProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ch4.csv.LargeFileProcessing" />
+      <module name="day-by-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch4.csv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BigFileProcessingDomain" />
+        <item itemvalue="Application.LargeFileProcessing" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -105,6 +216,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\user\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="55db5d17-22b9-4f7d-8a5d-3853c22ba1b4" name="Changes" comment="" />
@@ -122,7 +236,26 @@
       <workItem from="1737158418415" duration="8406000" />
       <workItem from="1737432365549" duration="12591000" />
       <workItem from="1737445314760" duration="1290000" />
-      <workItem from="1737725113797" duration="8998000" />
+      <workItem from="1737725113797" duration="9640000" />
+      <workItem from="1737763033038" duration="8028000" />
+      <workItem from="1737771223454" duration="3939000" />
+      <workItem from="1738130451403" duration="1899000" />
+      <workItem from="1738134235186" duration="1078000" />
+      <workItem from="1738135348001" duration="345000" />
+      <workItem from="1738135908620" duration="1053000" />
+      <workItem from="1738137283039" duration="443000" />
+      <workItem from="1738137750839" duration="992000" />
+      <workItem from="1738138790925" duration="1095000" />
+      <workItem from="1738139917638" duration="457000" />
+      <workItem from="1738140547677" duration="622000" />
+      <workItem from="1738141229735" duration="845000" />
+      <workItem from="1738142104169" duration="58000" />
+      <workItem from="1738142181049" duration="789000" />
+      <workItem from="1738143241084" duration="2261000" />
+      <workItem from="1738145524712" duration="72000" />
+      <workItem from="1738145606726" duration="5540000" />
+      <workItem from="1738151212553" duration="2128000" />
+      <workItem from="1738155698072" duration="8588000" />
     </task>
     <servers />
   </component>
@@ -136,6 +269,12 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ch4/csv/BigFileProcessingDomain.java</url>
+          <line>108</line>
+          <properties field="minAge" class="com.example.ch4.csv.BigFileProcessingDomain.UserAnalyticsService" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

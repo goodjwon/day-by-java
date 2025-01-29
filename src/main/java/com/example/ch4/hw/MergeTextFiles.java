@@ -3,11 +3,13 @@ package com.example.ch4.hw;
 
 import java.io.*;
 
+import static com.example.ch4.xls.ExcelProcessor.getResourceFilePath;
+
 public class MergeTextFiles {
     public static void main(String[] args) {
-        String file1 = "largeFile1.txt";
-        String file2 = "largeFile1.txt";
-        String outputFile = "mergedFile.txt";
+        String file1 = getResourceFilePath("largeFile1.txt");
+        String file2 = getResourceFilePath("largeFile1.txt");
+        String outputFile = getResourceFilePath("mergedFile.txt");
 
         try (
                 BufferedReader br1 = new BufferedReader(new FileReader(file1));
@@ -16,7 +18,7 @@ public class MergeTextFiles {
         ) {
             mergeFiles(br1, bw);
             mergeFiles(br2, bw);
-            System.out.println("파일 병합 완료: " + outputFile);
+            System.out.println("파일 병합 완료");
         } catch (IOException e) {
             e.printStackTrace();
         }

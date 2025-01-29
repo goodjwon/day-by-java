@@ -331,6 +331,9 @@ public class FileIOHandler {
     //19) ZIP 압축 쓰기 (텍스트로 묶는 간단 예시)
     public static void writeZip(String filename, List<Person> people) {
         //ZIP 안에 "persons.txt" 라는 파일을 넣는 예시
+        // 철수는 밥을 먹었습니다. 영희는 밥을 먹었습니다.
+        // 철수는 밥을 먹었습니다(A1). 영희는 (A1)
+        // 0x11234599234999fafdddfagdfadfgdffafd
         try (ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(filename))) {
             ZipEntry entry = new ZipEntry("persons.txt");
             zos.putNextEntry(entry);

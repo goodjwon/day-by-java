@@ -3,11 +3,13 @@ package com.example.ch4.hw;
 
 import java.io.*;
 
+import static com.example.ch4.xls.ExcelProcessor.getResourceFilePath;
+
 public class MergeTxt {
     public static void main(String[] args) {
-        String file1 = "file1.txt";
-        String file2 = "file2.txt";
-        String outputFile = "file.txt";
+        String file1 = getResourceFilePath("file1.txt");
+        String file2 = getResourceFilePath("file2.txt");
+        String outputFile = getResourceFilePath("file.txt");
 
         BufferedReader br1 = null;
         BufferedReader br2 = null;

@@ -97,16 +97,34 @@ class MapLoader {
 // Task 3.1, Task 3.2, Task 3.3: 게임 로직 처리
 class GameManager {
     // Task 3.1: 생성자에서 게임 데이터 및 로그 파일 경로 설정
+    private final String dataPath;
+    private final String logFilePath;
+
+    public GameManager(String dataPath, String logFilePath){
+        this.dataPath = dataPath;
+        this.logFilePath = logFilePath;
+    }
 
     // Task 3.1: 던전 진입 이벤트 처리
+    public void enterDungeon(String dungeonName){
+        logActivity("Entered dungeon: " + dungeonName);
+    }
 
     // Task 3.2: 몬스터 처치 이벤트 처리
+    public void defeatMonster(){
 
+    }
     // Task 3.2: 보스 처치 이벤트 처리
+    public void defeatBoss(){}
 
     // Task 1.2, Task 3.2: 활동 로그 작성
+    private void logActivity(String activity){
+
+    }
 
     // Task 3.3: 게임 종료 및 로그 백업
+    public void saveAndExit() {
 
+    }
 }
 // (유저(), 몬스터(), 보스()), 전투진행(), 로그파일(), 게임종료()
