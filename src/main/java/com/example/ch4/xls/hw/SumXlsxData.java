@@ -13,8 +13,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.example.ch4.xls.ExcelProcessor.getResourceFilePath;
-
 public class SumXlsxData {
     static class SalesData {
         String month;
@@ -90,6 +88,14 @@ public class SumXlsxData {
         }
 
         return summedData;
+    }
+
+    public static String getResourceFilePath(String fileName) {
+        ClassLoader classLoader = SumXlsxData.class.getClassLoader();
+        if (classLoader.getResource(fileName) != null) {
+            return classLoader.getResource(fileName).getPath();
+        }
+        return null;
     }
 
     public static void main(String[] args) {

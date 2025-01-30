@@ -31,10 +31,6 @@ public class ChangeValue {
             return amount;
         }
 
-        public int getPrice() {
-            return price;
-        }
-
         @Override
         public String toString() {
             return name + "," + amount + "," + price;

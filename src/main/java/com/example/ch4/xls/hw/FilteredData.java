@@ -12,8 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static com.example.ch4.xls.ExcelProcessor.getResourceFilePath;
-
 public class FilteredData {
     static class FilterData {
         String name;
@@ -93,6 +91,14 @@ public class FilteredData {
             }
         }
         return filtered;
+    }
+
+    public static String getResourceFilePath(String fileName) {
+        ClassLoader classLoader = FilteredData.class.getClassLoader();
+        if (classLoader.getResource(fileName) != null) {
+            return classLoader.getResource(fileName).getPath();
+        }
+        return null;
     }
 
     //메인
