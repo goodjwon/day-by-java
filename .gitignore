@@ -1,6 +1,8 @@
 ### IntelliJ IDEA ###
 .idea/
+.idea/workspace.xml
 out/
+target/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
@@ -30,4 +32,3 @@ bin/
 .DS_Store
 
 ### target file ###
-target/
