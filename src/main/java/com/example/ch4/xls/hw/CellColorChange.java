@@ -14,9 +14,9 @@ public class CellColorChange {
     static class StudentData {
         String name;
         String subject;
-        String score;
+        int score;
 
-        public StudentData(String name, String subject, String score) {
+        public StudentData(String name, String subject, int score) {
             this.name = name;
             this.subject = subject;
             this.score = score;
@@ -40,9 +40,20 @@ public class CellColorChange {
                     isFirstRow = false;
                     continue;
                 }
-                String name = row.getCell(0).getStringCellValue();
-                String subject = row.getCell(1).getStringCellValue();
-                String score = row.getCell(2).getStringCellValue();
+                String name = row.getCell(0) != null ? row.getCell(0).getStringCellValue() : "";
+                String subject = row.getCell(1) != null ? row.getCell(1).getStringCellValue() : "";
+                int score = 0;
+
+                if (row.getCell(2) != null) {
+                    String scoreString = row.getCell(2).getStringCellValue();
+                    if (!scoreString.isEmpty()) {
+                        try {
+                            score = Integer.parseInt(scoreString);
+                        } catch (NumberFormatException e) {
+                            System.out.println("Invalid score format for student: " + name);
+                        }
+                    }
+                }
                 studentData.add(new StudentData(name, subject, score));
             }
         } catch (IOException e) {
@@ -89,10 +100,25 @@ public class CellColorChange {
                     isFirstRow = false;
                     continue;
                 }
-                String name = row.getCell(0).getStringCellValue();
-                String subject = row.getCell(1).getStringCellValue();
-                String score = row.getCell(2).getStringCellValue();
+                String name = row.getCell(0) != null ? row.getCell(0).getStringCellValue() : "";
+                String subject = row.getCell(1) != null ? row.getCell(1).getStringCellValue() : "";
+                int score = 0;
+
+                if (row.getCell(2) != null) {
+                    String scoreString = row.getCell(2).getStringCellValue();
+                    if (!scoreString.isEmpty()) {
+                        try {
+                            score = Integer.parseInt(scoreString);
+                        } catch (NumberFormatException e) {
+                            System.out.println("Invalid score format for student: " + name);
+                        }
+                    }
+                }
                 studentData.add(new StudentData(name, subject, score));
+
+                if (score == 0) {
+                    continue;
+                }
 
                 if (score < 50) {
                     Cell scoreCell = row.getCell(2);
@@ -118,16 +144,16 @@ public class CellColorChange {
         if (classLoader.getResource(fileName) != null) {
             return classLoader.getResource(fileName).getPath();
         }
+        System.out.println("File not found: " + fileName);
         return null;
     }
 
     public static void main(String[] args) {
         String inputFilePath = getResourceFilePath("grades.xlsx");
 
-        List<StudentData> studentData = readExcel(inputFilePath);
-
         if (inputFilePath != null) {
-            studentData = changeColor(inputFilePath);
+            List<StudentData> studentData = readExcel(inputFilePath);
+            List<StudentData> change = changeColor(inputFilePath);
             String outputFilePath = "modified_grades.xlsx";
             writeExcel(outputFilePath, studentData, true);
         } else {
@@ -135,4 +161,3 @@ public class CellColorChange {
         }
     }
 }
-
