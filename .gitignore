@@ -4,6 +4,7 @@ out/
 day-by-java.iml
 !**/src/main/**/out/
 !**/src/test/**/out/
+day-by-java.iml
 
 ### Eclipse ###
 .apt_generated
