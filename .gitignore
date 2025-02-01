@@ -5,6 +5,11 @@ out/
 target/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/workspace.xml
+*.iml
+*.ipr
+*.iws
+*.ids
 
 ### Eclipse ###
 .apt_generated

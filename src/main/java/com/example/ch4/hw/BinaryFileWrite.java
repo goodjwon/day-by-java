@@ -1,15 +1,16 @@
 package com.example.ch4.hw;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
+import java.util.Arrays;
+
 
 public class BinaryFileWrite {
     public static void main(String[] args) {
-        String filename = "binary_output.bat";
+        String OutputFilePath = "binary_output.bat";
         byte[] data = {10, 20, 30, 40};
 
-        try (FileOutputStream fos = new FileOutputStream(filename)){
-            fos.write(data);
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(OutputFilePath))){
+            bw.write(Arrays.toString(data));
         } catch (IOException e) {
             e.printStackTrace();
         }

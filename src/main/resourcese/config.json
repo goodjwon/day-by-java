@@ -1,0 +1,7 @@
+{
+  "game_name": "My Offline Game",
+  "version": "1.0",
+  "language": "en",
+  "difficulty": "normal",
+  "max_inventory_size": 20
+}

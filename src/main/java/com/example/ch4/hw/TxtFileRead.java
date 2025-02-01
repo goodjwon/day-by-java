@@ -5,9 +5,11 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import static com.example.ch4.xls.ExcelProcessor.getResourceFilePath;
+
 public class TxtFileRead {
     public static void main(String[] args) {
-        String filename = "employees.txt";
+        String filename = getResourceFilePath("employees.txt");
 
         try (FileWriter fw = new FileWriter(filename)) {
             fw.write("John, 28\n");
