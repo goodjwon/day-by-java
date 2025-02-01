@@ -37,6 +37,7 @@ public class ChangeValue {
         }
     }
 
+    // 수정.
     public static List<InventoryData> readExcel(String filePath) {
         List<InventoryData> inventoryData = new ArrayList<>();
         try (FileInputStream fis = new FileInputStream(filePath);
@@ -60,6 +61,7 @@ public class ChangeValue {
         return inventoryData;
     }
 
+    // 수정.
     public static void writeExcel(String filePath, List<InventoryData> inventoryData, boolean includeHeader) {
         try (Workbook workbook = new XSSFWorkbook();
              FileOutputStream fos = new FileOutputStream(filePath)) {
@@ -104,6 +106,7 @@ public class ChangeValue {
         return null;
     }
 
+    // 수정.
     public static void main(String[] args) {
         String inputFilePath = getResourceFilePath("inventory.xlsx");
         String outputFilePath = getResourceFilePath("change_amount.xlsx");
