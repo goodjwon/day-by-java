@@ -9,10 +9,17 @@ public class SupplierOrder {
     public static void main(String[] args) {
 
         Supplier<String> order = () -> {
-            String dateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmm"));
+            String dateTime
+                    = LocalDateTime.now()
+                    .format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
 
             Random random = new Random();
             int randomNum = random.nextInt(9000) + 1000;
+
+            /**
+             * data 시퀀스. (*)
+             * 시퀀스 구현. 싱크로나이즈드. => lock
+             */
 
             return "ORDER-" + dateTime + randomNum;
         };
