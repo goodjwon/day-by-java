@@ -17,7 +17,25 @@ public class OrderFunctions {
     }
 
     // 2) 배송비 계산
+    public static Function<Order, Order> calculateShipping(int baseFee, int extraFeePerItem) {
+        return order -> {
+            order.shipping = baseFee + (extraFeePerItem * order.quantity);
+
+            return order;
+        };
+    }
 
     // 3) 포인트 적립
+
+    public static Function<Order, Order> accumulatePoints(double pointValue) {
+        return order -> {
+            double totalPriceAfterDiscount = (order.price * order.quantity) - order.discount;
+            double totalCost = totalPriceAfterDiscount + order.shipping;
+
+            order.points = (int)(totalCost * pointValue);
+
+            return order;
+        };
+    }
 }
 

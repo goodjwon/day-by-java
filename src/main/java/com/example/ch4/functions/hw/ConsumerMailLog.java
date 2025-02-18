@@ -7,7 +7,7 @@ public class ConsumerMailLog {
 
         String mailResult = "메일 전송 완료: user@example.com";
 
-        Consumer<String> logConsumer = msg -> System.out.print("[LOG] "+msg);
+        Consumer<String> logConsumer = msg -> System.out.print("[LOG] " + msg);
 
         Consumer<String> lengthConsumer = msg ->
                 System.out.println(" 메세지 길이는 " + msg.length() + " 입니다.");

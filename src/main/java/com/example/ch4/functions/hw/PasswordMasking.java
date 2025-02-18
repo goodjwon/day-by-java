@@ -1,7 +1,5 @@
 package com.example.ch4.functions.hw;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.function.Function;
 
 public class PasswordMasking {

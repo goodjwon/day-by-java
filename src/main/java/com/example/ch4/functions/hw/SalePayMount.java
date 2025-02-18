@@ -1,22 +1,21 @@
 package com.example.ch4.functions.hw;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.function.Function;
 
+//answer.DiscountCalculation
 public class SalePayMount {
     public static void main(String[] args) {
+        double basePrice = 10000.0;
+        double discount = 0.1;
 
-        List<Double> sales = Arrays.asList(10000.0);
+        Function<Double, Double> discountFunction = price -> price - (price * discount);
 
-        Function<Double, Double> doubleFunction = s -> {
-            Double result = Double.parseDouble(String.valueOf(s));
-            Double sale = result / 10;
-            System.out.println(result - sale);
+        Function<Double, Double> roundFunction = val -> Math.round(val * 100) / 100.0;
 
-            return result;
-        };
+        Function<Double, Double> finalFunction = discountFunction.andThen(roundFunction);
 
-        sales.forEach(s -> doubleFunction.apply(s));
+        double result = finalFunction.apply(basePrice);
+
+        System.out.println(result);
     }
 }

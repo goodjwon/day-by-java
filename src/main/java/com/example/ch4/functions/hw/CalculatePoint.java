@@ -1,21 +1,17 @@
 package com.example.ch4.functions.hw;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.function.Function;
+
 
 public class CalculatePoint {
     public static void main(String[] args) {
-        List<Long> point = Arrays.asList(15000L);
+        long basePoint = 15000L;
+        double AccumulatePoint = 0.01;
 
-        Function<Long, Integer> intFunction = s -> {
-            Integer result = Integer.parseInt(String.valueOf(s));
-            int accumulation = result / 100;
-            System.out.println("포인트: " + accumulation + "(포인트)");
+        Function<Long, Integer> AccumulateFunction = point -> (int)(point * AccumulatePoint);
 
-            return result;
-        };
+        int result = AccumulateFunction.apply(basePoint);
 
-        point.forEach(s -> intFunction.apply(s));
+        System.out.println(result);
     }
 }
