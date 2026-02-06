@@ -22,7 +22,7 @@ public class User {
 
     private String username;
     private String password;
-    private String roles; // Example: "ROLE_USER,ROLE_ADMIN"시
+    private String roles; // Example: "ROLE_USER,ROLE_ADMIN"
 
     public User(String username, String password, String roles) {
         this.username = username;
