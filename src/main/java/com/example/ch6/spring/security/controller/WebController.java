@@ -1,11 +1,14 @@
 package com.example.ch6.spring.security.controller;
 
+import com.example.ch6.spring.security.service.JpaUserDetailsService;
 import com.example.ch6.spring.security.service.UserService;
+import com.example.ch6.spring.security.util.JwtUtil;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
 
@@ -13,9 +16,27 @@ import java.security.Principal;
 public class WebController {
 
     private final UserService userService;
+    private final AuthenticationManager authenticationManager;
+    private final JpaUserDetailsService userDetailsService;
+    private final JwtUtil jwtUtil;
 
-    public WebController(UserService userService) {
+    public WebController(UserService userService, AuthenticationManager authenticationManager, JpaUserDetailsService userDetailsService, JwtUtil jwtUtil) {
         this.userService = userService;
+        this.authenticationManager = authenticationManager;
+        this.userDetailsService = userDetailsService;
+        this.jwtUtil = jwtUtil;
+    }
+
+    @PostMapping("/api/login")
+    public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest) throws Exception {
+        authenticationManager.authenticate(
+                new UsernamePasswordAuthenticationToken(authenticationRequest.getUsername(), authenticationRequest.getPassword())
+        );
+
+        final UserDetails userDetails = userDetailsService.loadUserByUsername(authenticationRequest.getUsername());
+        final String jwt = jwtUtil.generateToken(userDetails);
+
+        return ResponseEntity.ok(new AuthenticationResponse(jwt));
     }
 
     @PostMapping("/register")
